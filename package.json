@@ -1,0 +1,7 @@
+{
+	"devDependencies": {
+		"eslint": "^8.18.0",
+		"eslint-config-infojr-ts": "^2.1.0",
+		"prettier": "^2.7.1"
+	}
+}
