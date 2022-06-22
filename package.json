@@ -1,7 +1,36 @@
 {
-	"devDependencies": {
-		"eslint": "^8.18.0",
-		"eslint-config-infojr-ts": "^2.1.0",
-		"prettier": "^2.7.1"
-	}
+    "name": "nucleo-frontend",
+    "private": "true",
+    "scripts": {
+        "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
+        "prepare": "husky install",
+        "commit": "cz"
+    },
+    "lint-staged": {
+        "*.{ts,tsx}": [
+            "eslint --fix",
+            "pnpm -w run format"
+        ]
+    },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        },
+        "cz-customizable": {
+            "config": "./.cz-config.js"
+        }
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.0.2",
+        "@commitlint/parse": "^17.0.0",
+        "commitizen": "^4.2.4",
+        "commitlint-config-cz": "^0.13.3",
+        "cz-customizable": "^6.3.0",
+        "eslint": "^8.18.0",
+        "eslint-config-infojr-ts": "^2.1.0",
+        "husky": "^8.0.1",
+        "lint-staged": "^13.0.2",
+        "prettier": "^2.7.1",
+        "prettier-config-infojr": "^1.0.1"
+    }
 }
