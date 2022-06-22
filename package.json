@@ -7,7 +7,7 @@
         "commit": "cz"
     },
     "lint-staged": {
-        "*.{ts,tsx}": [
+        "*.{js, jsx, ts,tsx}": [
             "eslint --fix",
             "pnpm -w run format"
         ]
