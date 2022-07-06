@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "877b87af-662b-4dd1-a2c2-390470e775e7",
+      "title": "O segundo blog da InfoJr",
+      "description": "O segundo blog da InfoJr, com novidades e notícias sobre o mundo da informática e design",
+      "thumbnail": "https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
+      "author": {
+        "name": "Abner Rodrigues",
+        "avatar": "https://avatars.githubusercontent.com/u/39444892?s…00&u=6cb79c904d998390204d81a888075931e8ca4e01&v=4"
+      },
+      "published_at": "2022-07-06",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at ex bibendum, elementum nisi vel, tempus nulla. Sed scelerisque, augue eu pharetra feugiat, nisl neque gravida magna, quis imperdiet nisl dolor eget nisl. Vestibulum dictum nunc nec lacus fermentum posuere. Nunc varius laoreet nunc et condimentum. Vestibulum vitae ante pellentesque, laoreet arcu pulvinar, porta augue. Nullam ac dui at massa aliquet posuere. Nulla maximus augue non eros vulputate tincidunt. Praesent elementum dolor eros, sit amet vulputate eros ullamcorper id. Sed a sapien neque. Morbi id porta ligula. Quisque fringilla, sapien at pellentesque cursus, ex est finibus diam, iaculis consectetur magna justo a lorem."
+    }
+  ]
+}

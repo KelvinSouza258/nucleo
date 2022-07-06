@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "3adda672-76f5-4b58-8591-c87c29f38289",
+      "username": "admin",
+      "password": "$2a$08$.iD1jMdc2qkXnxEvHkFOle3kdlLE2BDFtrNaZzAhmTB13ixxMLdr.",
+      "likes": ["afa09f44-dbfa-4bc9-a320-4de567e81340"]
+    }
+  ],
+  "posts": [
+    {
+      "id": "afa09f44-dbfa-4bc9-a320-4de567e81340",
+      "userId": "3adda672-76f5-4b58-8591-c87c29f38289",
+      "message": "",
+      "totalLikes": 1,
+      "created_at": 1657135093136
+    }
+  ]
+}
