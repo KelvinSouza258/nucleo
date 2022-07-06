@@ -5,23 +5,38 @@ Este repositório será usado para ver e fazer as atividades do núcleo durante 
 
 ## Instruções de envio de atividades
 
-Crie uma branch a partir da `main` com o seu nome, usando *kebab-case*, para fazer cada atividade (por exemplo: `fulano-beltrano`).
-Para cada atividade, você deverá desenvolver o código inteiramente na pasta do respectivo projeto. Novas atividades serão enviadas como *issues* para cada projeto, então fique atento(a) ao Gitlab para ver se não tem nenhuma atividade pendente.
+Crie uma branch a partir da `main` com o seu nome, usando _kebab-case_, para fazer cada atividade (por exemplo: `fulano-beltrano`).
+Para cada atividade, você deverá desenvolver o código inteiramente na pasta do respectivo projeto. Novas atividades serão enviadas como _issues_ para cada projeto, então fique atento(a) ao Gitlab para ver se não tem nenhuma atividade pendente.
 
-O projeto utiliza um setup de monorepo para dividir dependências entre os dois projetos, então evite instalar dependências na pasta raiz. Se quiser instalar alguma dependência, veja o exemplo abaixo.
+O projeto utiliza o [**pnpm**](https://pnpm.io/) como gerenciador de pacotes.
 
-Os projetos que serão utilizados nas atividades estão na pasta **apps**, enquanto as configurações compartilhadas entre os projetos estão na pasta **packages**.
+O projeto utiliza um setup de monorepo para dividir dependências entre os projetos, então evite instalar dependências na pasta raiz. Se quiser instalar alguma dependência, veja o exemplo abaixo.
 
-Para instalar as dependências de ambos os projetos, basta rodar o comando `npm install` na pasta raiz do projeto. Para instalar dependências apenas em um dos projetos, basta entrar na pasta do projeto específico e rodar o comando `npm install sua-dependencia-aqui`. Por exemplo:
+Os projetos que serão utilizados nas atividades estão na pasta **apps**.
+
+Para instalar as dependências de ambos os projetos, basta rodar o comando `pnpm install` na pasta raiz do projeto. Para instalar dependências apenas em um dos projetos, basta entrar na pasta do projeto específico e rodar o comando `pnpm add sua-dependencia-aqui`. Por exemplo:
 
 ```bash
-cd apps/pokedex
-npm install lodash
+cd apps/todo-list
+pnpm add lodash
+```
+
+Para manter os padrões de commit, este repo utiliza o commitlint e commitzen, então para commitar, basta rodar o comando `pnpm run commit` na pasta raiz do repo ou na pasta de um dos projetos. Por exemplo:
+
+```bash
+pnpm run commit
+```
+
+ou
+
+```bash
+cd apps/1-todo-list
+pnpm run commit
 ```
 
 Seus commits deverão ser contínuos e explicativos, então nada de fazer a atividade inteira em um só commit com a mensagem _"atividade do nucleo ae"_, beleza? Os orientadores precisam acompanhar o progresso dos membros, e isso será feito através dos seus commits no GitLab.
 
-Para entregar uma atividade, basta abrir um *merge request* no Gitlab e sua atividade será avaliada.
+Para entregar uma atividade, basta abrir um _merge request_ no Gitlab e sua atividade será avaliada.
 
 Além disso, cada atividade terá desafios opcionais a serem completados, que contaram também na avaliação caso sejam concluídos.
 
@@ -39,8 +54,8 @@ Não se restrinja a apenas o mínimo necessário para a atividade, dê o seu mel
 
 ### Ausência de comunicação com os orientadores
 
-- Está com dificuldade? Peça ajuda.
-- Não vai conseguir entregar no prazo? Justifique com antecedência.
-- Algo te incomoda no núcleo? Dê o seu feedback.
+-   Está com dificuldade? Peça ajuda.
+-   Não vai conseguir entregar no prazo? Justifique com antecedência.
+-   Algo te incomoda no núcleo? Dê o seu feedback.
 
 Comunicação é essencial em todas as áreas da vida, os núcleos de estudo não são exceção.
