@@ -38,7 +38,7 @@ Seus commits deverão ser contínuos e explicativos, então nada de fazer a ativ
 
 Para entregar uma atividade, basta abrir um _merge request_ no Gitlab e sua atividade será avaliada.
 
-Além disso, cada atividade terá desafios opcionais a serem completados, que contaram também na avaliação caso sejam concluídos.
+Além disso, as atividade podem conter desafios opcionais a serem completados, que contaram também na avaliação caso sejam concluídos.
 
 ## Observações importantes
 
